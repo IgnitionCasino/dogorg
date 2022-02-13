@@ -1,185 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bodog Sports | 100% Welcome Bonus | Bodog Sportsbook</title>
-    <link rel="icon" type="image/x-icon" href="https://www.bodog.eu/content/favicons/apple-icon-57x57.png">
-    <base href="https://www.bodog.eu/betting-offers/welcome-bonus-2022/betting-offers/welcome-bonus-2022/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/css/styles.css?v=2">
-    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-5FP8W73"></script>
+    <title>Conway's Game of Life</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
 </head>
+
 <body>
-    
-    <section class="header">
-        <a class="operator-link" href="https://www.bodog.eu/?referral=X3SiCg_ZXvlPPEsBkz1ys2Nd7ZgqdRLk&overlay=join&affid=25648">
-            <!-- <img class="hero desktop" src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/hero-desktop.jpg"> -->
-            <img class="hero mobile" src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/hero-mobile.jpg">
-        </a>
-        <img class="logo" alt="Bodog Logo" src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/bodog-logo-white.svg">
-        <!--
-        <img class="background-overlay" alt="Background Overlay" src="assets/img/background-overlay.png">
-       
-        <div class="section-inner">
-            <img class="logo" alt="Bodog Logo" src="assets/img/bodog-logo-white.svg">
-
-            <div class="offer">
-                <h1>GO ALL THE WAY</h1>
-                <span class="hidden">GET YOUR $400<br>WELCOME BONUS<br>+50 FREE SPINS</span>
-                <img class="hook" src="assets/img/bet-on-nfl.png" alt="Bet on NFL Playoffs">
-                <a class="cta operator-link" href="https://bodog.eu?overlay=join">BET NOW</a>
-                <div class="payment-methods">
-                    <img src="assets/img/interac.png" alt="interac">
-                    <img src="assets/img/bitcoin.png" alt="bitcoin">
-                    <img src="assets/img/ethereum.png" alt="ethereum">
-                    <img src="assets/img/litecoin.png" alt="litecoin">
-                    <img src="assets/img/visa.png" alt="visa">
-                    <img src="assets/img/master.png" alt="master card">
-                </div>
-            </div>
-            <img class="player" alt="football player" src="assets/img/players.png">
-            
+    <div style="width: 1000px; display: flex">
+        <div id="canvas-container" style="width: 850px">
+            <canvas id="myCanvas" width="800" height="800" style="border:1px solid #000000;"></canvas>
         </div>
-        -->
-    </section>
-
-    <section class="products">
-        <div class="section-inner">
-            <h2>Earn <b>Amazing Bonuses</b> on all Products</h2>
-            <div class="products-container">
-                <div class="product casino">
-                    <div>100%</div>
-                    <div>CASINO<br>BONUS</div>
-                </div>
-                <div class="product sports">
-                    <div>100%</div>
-                    <div>SPORTS<br>BONUS</div>
-                </div>
-                <div class="product poker">
-                    <div>100%</div>
-                    <div>POKER<br>BONUS</div>
-                </div>
-            </div>
-            <a class="cta operator-link" href="https://www.bodog.eu/?referral=X3SiCg_ZXvlPPEsBkz1ys2Nd7ZgqdRLk&overlay=join&affid=25648">CLAIM NOW</a>
+        <div id="user-buttons-container" style="width: 200px">
+            <button type="button" id="start-button">Start</button><br />
+            <button type="button" id="stop-button">Stop</button><br />
+            <button type="button" id="reset-button">Reset</button><br />
+            <button type="button" id="preset1-button">Preset 1</button><br />
+            <button type="button" id="preset2-button">Preset 2</button><br />
+            <button type="button" id="preset3-button">Preset 3</button><br />
         </div>
-    </section>
-
-    <section class="reasons">
-        <div class="section-inner">
-            <h2>Reasons to play at <b>Canada's #1</b> online gaming site</h2>
-
-            <div class="card-container">
-                <div class="card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/sport-lines.jpeg">
-                    <span>The Most Sports Lines</span>
-                </div>
-                <div class="card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/poker-tournaments.jpeg">
-                    <span>Live Poker Tournaments</span>
-                </div>
-                <div class="card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/table-games.jpeg">
-                    <span>Slots & Table Games</span>
-                </div>
-                <div class="card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/crypto.jpeg">
-                    <span>Big Crypto Bonuses</span>
-                </div>
-            </div>
-
-            <a class="cta operator-link" href="https://www.bodog.eu/?referral=X3SiCg_ZXvlPPEsBkz1ys2Nd7ZgqdRLk&overlay=join&affid=25648">LEARN MORE</a>
-        </div>
-    </section>
-
-    <section class="games">
-        <div class="section-inner">
-            <h2>Play These And Over <b>+800</b> Games</h2>
-
-            <div class="card-container">
-                <div class="card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/mega-moolah.jpeg">
-                </div>
-                <div class="card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/thunder-struck.jpeg">
-                </div>
-                <div class="card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/lara-croft.jpeg">
-                </div>
-                <div class="card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/jurassic-world.jpeg">
-                </div>
-            </div>
-
-            <a class="cta operator-link" href="https://www.bodog.eu/?referral=X3SiCg_ZXvlPPEsBkz1ys2Nd7ZgqdRLk&overlay=join&affid=25648">SPIN NOW</a>
-        </div>
-    </section>
-
-    <section class="raf">
-        <div class="section-inner">
-            <h2>Refer as many of <b>your friends</b> to score unlimited bonuses</h2>
-            <div class="raf-container">
-                <div class="raf-card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/send.png">
-                    <span>You send your friends a referral link</span>
-                </div>
-                <div class="raf-card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/click.png">
-                    <span>Your friends click, join and make a deposit</span>
-                </div>
-                <div class="raf-card">
-                    <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/cash.png">
-                    <span>We add 200% to your account, up to $100</span>
-                </div>
-            </div>
-            <a class="cta operator-link" href="https://www.bodog.eu/?referral=X3SiCg_ZXvlPPEsBkz1ys2Nd7ZgqdRLk&overlay=join&affid=25648">LEARN MORE</a>
-        </div>
-    </section>
-
-    <section class="footer" id="footer">
-        <div class="section-inner">
-            <div class="payment-methods">
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/interac.png" alt="interac">
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/bitcoin.png" alt="bitcoin">
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/ethereum.png" alt="ethereum">
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/+18.png" alt="+18">
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/litecoin.png" alt="litecoin">
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/visa.png" alt="visa">
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/master.png" alt="master card">
-            </div>
-
-            <div class="footer-info">
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/devices.png">
-                <div class="disclaimer">
-                    <p>Bodog is a registered trademark. All rights reserved</p>
-                    <p>Gambling should be entertaining. Remember that you always risk losing the money you bet, so do not spend more than you can afford to lose.</p>
-                </div>
-                <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/os.png">
-            </div>
-        </div>
-    </section>
-
-    <div id="fixed-overlay">
-        <img src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/img/bodog-logo.svg">
-        <span>JOIN FOR FREE AND CLAIM YOUR BONUS TODAY</span>
-        <a class="cta operator-link" href="https://www.bodog.eu/?referral=X3SiCg_ZXvlPPEsBkz1ys2Nd7ZgqdRLk&overlay=join&affid=25648">PLAY NOW</a>
     </div>
+    <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+    <script type="text/javascript" src="graphics.js"></script>
+</body>
 
-    <script>
-        window.onscroll = function() {
-
-            if(window.scrollY > 200) {
-                document.getElementById('fixed-overlay').style.display = "flex";
-                document.getElementById('footer').style.marginBottom = document.getElementById('fixed-overlay').offsetHeight + "px";
-            }
-            
-        };
-    </script>
-
-    <script src="https://www.bodog.eu/betting-offers/welcome-bonus-2022/assets/scripts/abtest.js"></script>
-    
-<script>var config =<esi:include src="https://www.bodog.eu/betting-offers/welcome-bonus-2022//services/site-config/v1/config"/>;</script> <script src="https://www.bodog.eu/betting-offers/welcome-bonus-2022//assets/js/vergicLoader.js"></script><script src="https://www.bodog.eu/betting-offers/welcome-bonus-2022//assets/js/browserStorage.js"></script><script src="/assets/js/affiliate.js?version=2"></script><script src="/assets/js/webtrekk.js"></script></body>
 </html>
